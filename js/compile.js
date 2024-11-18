@@ -1,5 +1,5 @@
-var apiUrl = "https://ally-ide-pst.herokuapp.com";
-var api = `/ally-ide/python-runtime/output`;
+var apiUrl = "API_URL";
+var apiEndpoint = `API_ENDPOINT`;
 var wait = localStorageGetItem("wait") || false;
 var check_timeout = 300;
 
@@ -37,7 +37,7 @@ function run(code) {
 
 	var sendRequest = function (data) {
 		$.ajax({
-			url: apiUrl + api,
+			url: apiUrl + apiEndpoint,
 			type: "POST",
 			async: true,
 			contentType: "application/json",

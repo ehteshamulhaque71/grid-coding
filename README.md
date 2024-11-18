@@ -4,8 +4,7 @@ This repository contains the source code for [Grid-Coding](https://dl.acm.org/do
 
 ![Ally IDE](./demo/gc-teaser.png)
 
-We created a web-based environment that supports an implementation of Grid-Coding for Python programming, which we call Ally IDE. It contains a Text Editor, Grid Editor, and a Code Output window. 
-
+We created a web-based environment that supports an implementation of Grid-Coding for Python programming, which we call Ally IDE. It contains a Text Editor, Grid Editor, and a Code Output window.
 
 <div>
 	<div>
@@ -62,7 +61,7 @@ We created a web-based environment that supports an implementation of Grid-Codin
 				</li>
 				<li>Open the browser and go to url shown in the terminal</li>
 			</ol>
-			The project requires setting up a backend for executing Python code and seeing the result in Code Output. The backend code is available in the <a href="https://github.com/ehteshamulhaque71/grid-coding-backend">Grid-Coding-Backend</a> repository. Follow the instructions in the README file of the backend repository to set up the backend.
+			The project requires setting up a backend for executing Python code and seeing the result in Code Output. The backend code is available in the <a href="https://github.com/ehteshamulhaque71/grid-coding-backend">Grid-Coding-Backend</a> repository. Follow the instructions in the README file of the repository to set up the backend. Change the <code>apiUrl</code> and <code>apiEndpoint</code> variables in the <code>js/compile.js</code> file to point to the backend url and endpoint for execution. You can also setup your own backend or use any other backend service to execute the code by updating the API call in the <code>js/compile.js</code> file accordingly.
 			</p>
 			<a href="#li_installation">Back to Table of Contents </a>
 		</div>
