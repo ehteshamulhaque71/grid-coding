@@ -4,7 +4,7 @@ This repository contains the source code for [Grid-Coding](https://dl.acm.org/do
 
 ![Ally IDE](./demo/gc-teaser.png)
 
-We created a web-based environment that supports an implementation of Grid-Coding for Python programming, which we call Ally IDE. It contains a Text Editor, Grid Editor, and a Code Output window.
+We created a web-based environment that supports an implementation of Grid-Coding for Python programming, which we call Ally IDE. It contains a Text Editor, Grid Editor, and a Code Output window. Try the publicly available [Ally IDE](https://ally-ide.herokuapp.com/ "link to ally ide").
 
 <div>
 	<div>
